@@ -1,0 +1,39 @@
+.servercard:where(.astro-LHWSPMK3) {
+  opacity: 0;
+  transition: all 1s;
+  transform: translate(100%);
+  filter: blur(10px);
+}
+.show:where(.astro-LHWSPMK3) {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translate(0);
+}
+.caroverly:where(.astro-HLE3Y4UW) {
+  background-position: 50% 35%;
+  opacity: 0;
+  transition: all 3s;
+  filter: blur(10px);
+}
+.caroverlyshow:where(.astro-HLE3Y4UW) {
+  opacity: 1;
+  filter: blur(0px);
+}
+.marquee:where(.astro-KLH3PA2O) {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(100%);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
+#car:where(.astro-BYV6WMXO) {
+  background-image: url(../images/rols3.png);
+  aspect-ratio: 16/9;
+}
