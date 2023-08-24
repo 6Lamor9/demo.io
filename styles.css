@@ -2560,7 +2560,7 @@ html {
 }
 @font-face {
   font-family: BluuNext;
-  src: url(..../fonts/BluuNext-Bold.woff2) format("woff2");
+  src: url(./fonts/BluuNext-Bold.woff2) format("woff2");
   font-weight: 900;
   font-style: normal;
 }
@@ -2569,17 +2569,17 @@ html {
 }
 @font-face {
   font-family: Trap;
-  src: url(.../fonts/Trap-Regular.woff2);
+  src: url(./fonts/Trap-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: Trap;
-  src: url(../fonts/Trap-Bold.woff2);
+  src: url(./fonts/Trap-Bold.woff2);
   font-weight: 700;
 }
 @font-face {
   font-family: Trap;
-  src: url(../fonts/Trap-Light.woff2);
+  src: url(./fonts/Trap-Light.woff2);
   font-weight: 300;
 }
 .font-tp {
@@ -2587,12 +2587,12 @@ html {
 }
 @font-face {
   font-family: EireneSans;
-  src: url(../fonts/EireneSans-Regular.woff2);
+  src: url(./fonts/EireneSans-Regular.woff2);
   font-weight: 400;
 }
 @font-face {
   font-family: EireneSans;
-  src: url(../fonts/EireneSans-Bold.woff2);
+  src: url(./fonts/EireneSans-Bold.woff2);
   font-weight: 700;
 }
 .font-es {
@@ -2600,7 +2600,7 @@ html {
 }
 @font-face {
   font-family: Alexana;
-  src: url(../fonts/Alexana.woff2);
+  src: url(./fonts/Alexana.woff2);
   font-weight: 400;
 }
 .font-ax {
@@ -2608,7 +2608,7 @@ html {
 }
 @font-face {
   font-family: delutchy-demo;
-  src: url(../fonts/delutchy-demo.woff2);
+  src: url(./fonts/delutchy-demo.woff2);
   font-weight: 400;
 }
 .font-dl {
@@ -2616,7 +2616,7 @@ html {
 }
 @font-face {
   font-family: Headache;
-  src: url(../fonts/Headache.woff2);
+  src: url(./fonts/Headache.woff2);
   font-weight: 400;
 }
 .font-hd {
@@ -2624,7 +2624,7 @@ html {
 }
 @font-face {
   font-family: onlysans;
-  src: url(../fonts/OnelySans-BF64ca37dd96dcf.woff2);
+  src: url(./fonts/OnelySans-BF64ca37dd96dcf.woff2);
   font-weight: 400;
 }
 .font-os {
@@ -2632,7 +2632,7 @@ html {
 }
 @font-face {
   font-family: Sedhayu;
-  src: url(../fonts/Sedhayu.woff2);
+  src: url(./fonts/Sedhayu.woff2);
   font-weight: 400;
 }
 .font-sd {
