@@ -1,241 +1,351 @@
 <!DOCTYPE html>
 <html lang="en" class="light" data-theme="light">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" type="image/svg+xml" href="/logo.svg">
-		<meta name="generator" content="Astro v2.8.5">
-		<title>Home</title>
-	<link rel="stylesheet" href="./styles.css" />
-<link rel="stylesheet" href="./arstyles.css" /><script type="module">const n=new IntersectionObserver(e=>{e.forEach(r=>{r.isIntersecting?r.target.classList.add("show"):r.target.classList.remove("show")})}),i=document.querySelectorAll(".servercard");i.forEach(e=>{n.observe(e)});function c(e,r){const t=new IntersectionObserver(l=>{l.forEach(s=>{s.isIntersecting?s.target.classList.add(e):s.target.classList.remove(e)})}),a=document.querySelector(r);t.observe(a)}c("caroverlyshow",".caroverly");const o=document.querySelectorAll(".mycard2");o.forEach(e=>{let r=Array.from(o).indexOf(e)+1;c("mycard2show",`.mycard2:nth-child(${r})`)});
-</script></head>
-	<body class="">
 
-		
-<div class="navbar bg-base-100 font-os z-50  fixed top-0 ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Astro description">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <meta name="generator" content="Astro v2.8.5">
+  <title>Home</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="module">const n = new IntersectionObserver(e => { e.forEach(r => { r.isIntersecting ? r.target.classList.add("show") : r.target.classList.remove("show") }) }), i = document.querySelectorAll(".servercard"); i.forEach(e => { n.observe(e) }); function c(e, r) { const t = new IntersectionObserver(l => { l.forEach(s => { s.isIntersecting ? s.target.classList.add(e) : s.target.classList.remove(e) }) }), a = document.querySelector(r); t.observe(a) } c("caroverlyshow", ".caroverly"); const o = document.querySelectorAll(".mycard2"); o.forEach(e => { let r = Array.from(o).indexOf(e) + 1; c("mycard2show", `.mycard2:nth-child(${r})`) });
+  </script>
+</head>
+
+<body class="">
+
+
+  <div class="navbar bg-base-100 font-os z-50  fixed top-0 ">
     <div class="navbar-start ">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+          </svg>
         </label>
-        <ul tabindex="0" class="menu menu-lg   decoration-slice text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a href="#services">الخدمات</a></li><li><a href="/fleet">أسطول السيارات</a></li><li><a href="/contact">اتصل بنا</a></li>
+        <ul tabindex="0"
+          class="menu menu-lg   decoration-slice text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="#services">الخدمات</a></li>
+          <li><a href="/fleet">أسطول السيارات</a></li>
+          <li><a href="/contact">اتصل بنا</a></li>
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-2xl font-ax" href="/">أجيال</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal text-lg  px-1">
-        <li><a href="#services">الخدمات</a></li><li><a href="/fleet">أسطول السيارات</a></li><li><a href="/contact">اتصل بنا</a></li>
+        <li><a href="#services">الخدمات</a></li>
+        <li><a href="/fleet">أسطول السيارات</a></li>
+        <li><a href="/contact">اتصل بنا</a></li>
       </ul>
     </div>
     <div class="navbar-end ">
-      <a class="btn btn-base-300 text-black" href="/contact">احجز رحلة</a>
+      <a class="btn btn-base-300 text-black" href="/">EN</a>
     </div>
   </div>
-<div class="hero min-h-screen" style="background-image: url('images/image3.jpg')">
-  <div class="hero-overlay bg-opacity-60"></div>
-  <div class="hero-content text-center text-neutral-content">
-    <div class="w-full md:w-1/2">
-      <h1 class="mb-5 text-4xl md:text-5xl  font-dl changeable " id="a1">أفضل خدمة نقل في المملكة العربية السعودية</h1>
-      <p class="mb-5 text-lg font-es changeable" id="a3">سافر كملك</p>
-      <a class="btn  btn-base-300 font-os changeable" id="a2" href="/contact">احجز الآن</a>
-    </div>
-  </div>
-  <div class="  border-b-[11vh]   absolute bottom-0 border-b-base-100 border-l-[100vw] border-l-transparent"></div>
-</div>
+  <div class="hero min-h-screen" style="background-image: url('images/image3.jpg')">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="w-full md:w-1/2">
+        <h1 class="mb-5 xs:text-3xl text-4xl sm:text-5xl md:text-6xl   font-dl changeable " id="a1">أفضل خدمة نقل في المملكة العربية السعودية</h1>
 
-<main class="bg-base-100 overflow-hidden">
-  <div class="hero bg-base font-es">
-    <div class="hero-content text-center">
-      <div class=" max-w-xl">
-        <h2 class="text-xl font-bold">مكان واحد لجميع خدمات النقل والسفر والإيجار</h2>
+        <p class="mb-5 text-lg font-es changeable" id="a3">سافر كملك</p>
+        <a class="btn  btn-base-300 font-os changeable" id="a2" href="/contact">احجز الآن</a>
       </div>
     </div>
+    <div class="  border-b-[11vh]   absolute bottom-0 border-b-base-100 border-l-[100vw] border-l-transparent"></div>
   </div>
-  <div>
-    <div class="container min-h-[80vh] mx-auto">
-      <div class="flex md:gap-4 lg:p-8 mob:flex-col " id="services">
-        <div class="w-full md:w-2/5">
-          <div class="p-4 inline-flex gap-4 justify-center h-full text-right flex-col">
-            <h2 class="text-3xl font-bold lg:text-5xl font-hd">أجيال العربة@</h2>
-            <p class="text-xl">في أجيال العربة، نحن ملتزمون بتقديم رفاهية وراحة لا مثيل لهما لعملائنا من خلال خدمات تأجير السيارات الفاخرة والسائق. مهمتنا هي توفير تجربة سفر سلسة وفاخرة تتجاوز التوقعات وتضيف قيمة لكل رحلة.</p>
-            <p class="text-lg md:text-xl text-yellow-500 text-center">
-              Ahmaed@ajyalalarabah.com
-            </p>
+
+  <main class="bg-base-100 overflow-hidden">
+    <div class="hero bg-base font-es">
+      <div class="hero-content text-center">
+        <div class=" max-w-xl">
+          <h2 class="text-xl font-bold">مكان واحد لجميع خدمات النقل والسفر والإيجار</h2>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container min-h-[80vh] mx-auto">
+        <div class="flex md:gap-4 lg:p-8 mob:flex-col " id="services">
+          <div class="w-full md:w-2/5">
+            <div class="p-4 inline-flex gap-4 justify-center h-full text-right flex-col">
+              <h2 class="text-3xl font-bold lg:text-5xl font-hd">أجيال العربة@</h2>
+              <p class="text-xl">في أجيال العربة، نحن ملتزمون بتقديم رفاهية وراحة لا مثيل لهما لعملائنا من خلال خدمات
+                تأجير السيارات الفاخرة والسائق. مهمتنا هي توفير تجربة سفر سلسة وفاخرة تتجاوز التوقعات وتضيف قيمة لكل
+                رحلة.</p>
+              <p class="text-lg md:text-xl text-yellow-500 text-center">
+                Ahmaed@ajyalalarabah.com
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="flex gap-4 flex-col mob:px-4  justify-evenly">
-          <div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car1.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="flex-row-reverse card-title astro-LHWSPMK3">تأجير سيارات فاخرة</h2>
-      <p class="md:max-w-sm text-right astro-LHWSPMK3">استكشف قمة الأناقة والأداء مع أسطولنا من السيارات الفاخرة من الدرجة الأولى. سواء كانت مناسبة خاصة أو رغبة في تذوق الرفاهية، نقدم مجموعة من السيارات الفاخرة التي تناسب كل أسلوب وتفضيل.</p>
-    </div>
-  </div><div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car2.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="flex-row-reverse card-title astro-LHWSPMK3">حلول النقل الشركي</h2>
-      <p class="md:max-w-sm text-right astro-LHWSPMK3">رفع تفاعلات أعمالك مع خدمات النقل الشركي لدينا. يضمن سائقونا المخصصون الالتزام بالتوقيت والاحترافية، مما يجعل فعالياتك واجتماعاتك الشركية تجربة سلسة.</p>
-    </div>
-  </div><div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car3.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="flex-row-reverse card-title astro-LHWSPMK3">خدمة السائق الشخصية</h2>
-      <p class="md:max-w-sm text-right astro-LHWSPMK3">استلقِ واستمتع بالرحلة بينما يتنقل سائقونا ذوو الخبرة عبر الطرق. تقدم خدمات السائق الشخصي المخصصة لدينا وسيلة فاخرة وخالية من الإجهاد للسفر، مما يتيح لك التركيز على ما يهمك بشكل أكبر.</p>
-    </div>
-  </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-
-<!-- <div
-  class="sm:hidden border-t-[10vh] -mb-[10vh] border-t-base-300 border-r-[100vw] border-r-transparent"
-> --><div class="border-b-[10vh] border-b-black border-l-[100vw] border-l-transparent astro-HLE3Y4UW">
-</div>
-<div class="w-full h-[85vh] bg-black center1 astro-HLE3Y4UW">
-  <div class="h-full caroverly bg-contain md:bg-cover w-full  bg-no-repeat astro-HLE3Y4UW" style="background-image: url(&#34;images/whyuscar.jpg&#34;)">
-  </div>
-</div>
-
-<div class="pb-4 md:py-4 text-center text-white font-tp text-xl md:text-3xl lg:text-4xl bg-black text astro-HLE3Y4UW">
-  <h1 class="astro-HLE3Y4UW">سافر كما لم تفعل من قبل</h1>
-</div>
-<div class="border-t-[10vh] bg-base-300 border-t-black border-r-[100vw] border-r-transparent astro-HLE3Y4UW">
-</div>
-
-<div class="flex mob:flex-col justify-center bg-base-300 pt-4 md:gap-4 items-center"><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i3.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class=" card-title justify-center">التميز</h2> <p class="text-right text-lg">نسعى للتميز في كل جانب من جوانب خدماتنا، من جودة مركباتنا إلى احترافية فريقنا.</p></div> </div><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i1.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class=" card-title justify-center">الموثوقية</h2> <p class="text-right text-lg">يمكنك الاعتماد علينا بالالتزام بالتوقيت والموثوقية. وقتك ثمين، ونحن نضمن أن تصل في الموعد المحدد.</p></div> </div><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i2.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class=" card-title justify-center">النزاهة</h2> <p class="text-right text-lg">نعمل بالصدق والشفافية، ونبني الثقة مع عملائنا من خلال التواصل الواضح والممارسات الأخلاقية.</p></div> </div></div>
-<div class="flex justify-evenly bg-base-300 mob:flex-col items-center min-h-[80vh] astro-HLE3Y4UW">
-  <video src="video/test.mp4" controls class="md:w-2/5 w-full astro-HLE3Y4UW"></video>
-  <div class="card w-full md:w-2/5 rounded-none bg-base-300 astro-HLE3Y4UW">
-    <div class="card-body astro-HLE3Y4UW">
-      <h2 class="flex-row-reverse card-title text-2xl font-tp font-bold lg:text-3xl astro-HLE3Y4UW">
-        أهدافنا
-      </h2>
-      <p class="text-right text-lg astro-HLE3Y4UW">نتطلع إلى المستقبل، حيث هدفنا هو توسيع أسطولنا وتعزيز عروض خدماتنا، والاستمرار في كوننا رمزًا للرفاهية والراحة في صناعة النقل. نهدف إلى أن نكون خيار الاختيار للأفراد والشركات الباحثين عن حلول سفر متطورة. في أجيال العربة العربة، تتقاطع الفخامة والراحة والتطور لخلق تجربة سفر لا مثيل لها. انضم إلينا في هذه الرحلة ورفع طريقة نقلك.</p>
-      <div id="f2-10" class="grid md:gap-4 grid-cols-3 mt-4 w-full astro-HLE3Y4UW">
-        <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c1.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">فخامة</h2>
-              </div><div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c2.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">ثقة</h2>
-              </div><div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c3.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">راحة</h2>
-              </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="border-t-[20vh] bg-base-100 border-t-base-300 border-l-[100vw] border-l-transparent astro-HLE3Y4UW"></div>
-<style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var d;{let h={0:t=>t,1:t=>JSON.parse(t,a),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,a)),5:t=>new Set(JSON.parse(t,a)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},a=(t,e)=>{if(t===""||!Array.isArray(e))return e;let[r,n]=e;return r in h?h[r](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(d=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=async()=>{var o;if(!this.hydrator||!this.isConnected)return;let e=(o=this.parentElement)==null?void 0:o.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),n={},c=this.querySelectorAll("template[data-astro-template]");for(let s of c){let i=s.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[s.getAttribute("data-astro-template")||"default"]=s.innerHTML,s.remove())}for(let s of r){let i=s.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[s.getAttribute("name")||"default"]=s.innerHTML)}let l=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),a):{};await this.hydrator(this)(this.Component,l,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((e,r)=>{r.disconnect(),setTimeout(()=>this.childrenConnectedCallback(),0)}).observe(this,{childList:!0})}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}Astro[r](async()=>{let n=this.getAttribute("renderer-url"),[c,{default:l}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),o=this.getAttribute("component-export")||"default";if(!o.includes("."))this.Component=c[o];else{this.Component=c;for(let s of o.split("."))this.Component=this.Component[s]}return this.hydrator=l,this.hydrate},e,this)}attributeChangedCallback(){this.hydrate()}},d.observedAttributes=["props"],d))}})();</script><astro-island uid="ZRAczS" component-url="./section4.6e6a0fd4.js" component-export="default" renderer-url="./client.c4e17359.js" props="{&quot;pd&quot;:[0,{&quot;type&quot;:[0,&quot;AR&quot;],&quot;a1&quot;:[0,&quot;أفضل خدمة نقل في المملكة العربية السعودية&quot;],&quot;a2&quot;:[0,&quot;احجز الآن&quot;],&quot;a3&quot;:[0,&quot;سافر كملك&quot;],&quot;abg1&quot;:[0,&quot;images/image3.jpg&quot;],&quot;b2&quot;:[0,&quot;مكان واحد لجميع خدمات النقل والسفر والإيجار&quot;],&quot;b3&quot;:[0,&quot;أجيال العربة@&quot;],&quot;b4&quot;:[0,&quot;في أجيال العربة، نحن ملتزمون بتقديم رفاهية وراحة لا مثيل لهما لعملائنا من خلال خدمات تأجير السيارات الفاخرة والسائق. مهمتنا هي توفير تجربة سفر سلسة وفاخرة تتجاوز التوقعات وتضيف قيمة لكل رحلة.&quot;],&quot;b5&quot;:[0,&quot;Ahmaed@ajyalalarabah.com&quot;],&quot;cb11&quot;:[0,&quot;تأجير سيارات فاخرة&quot;],&quot;cb12&quot;:[0,&quot;استكشف قمة الأناقة والأداء مع أسطولنا من السيارات الفاخرة من الدرجة الأولى. سواء كانت مناسبة خاصة أو رغبة في تذوق الرفاهية، نقدم مجموعة من السيارات الفاخرة التي تناسب كل أسلوب وتفضيل.&quot;],&quot;cb13&quot;:[0,&quot;car1.jpg&quot;],&quot;cb21&quot;:[0,&quot;حلول النقل الشركي&quot;],&quot;cb22&quot;:[0,&quot;رفع تفاعلات أعمالك مع خدمات النقل الشركي لدينا. يضمن سائقونا المخصصون الالتزام بالتوقيت والاحترافية، مما يجعل فعالياتك واجتماعاتك الشركية تجربة سلسة.&quot;],&quot;cb23&quot;:[0,&quot;car2.jpg&quot;],&quot;cb31&quot;:[0,&quot;خدمة السائق الشخصية&quot;],&quot;cb32&quot;:[0,&quot;استلقِ واستمتع بالرحلة بينما يتنقل سائقونا ذوو الخبرة عبر الطرق. تقدم خدمات السائق الشخصي المخصصة لدينا وسيلة فاخرة وخالية من الإجهاد للسفر، مما يتيح لك التركيز على ما يهمك بشكل أكبر.&quot;],&quot;cb33&quot;:[0,&quot;car3.jpg&quot;],&quot;cbg1&quot;:[0,&quot;images/whyuscar.jpg&quot;],&quot;c1&quot;:[0,&quot;سافر كما لم تفعل من قبل&quot;],&quot;cc11&quot;:[0,&quot;التميز&quot;],&quot;cc12&quot;:[0,&quot;نسعى للتميز في كل جانب من جوانب خدماتنا، من جودة مركباتنا إلى احترافية فريقنا.&quot;],&quot;cc13&quot;:[0,&quot;images/card2i3.jpg&quot;],&quot;cc21&quot;:[0,&quot;الموثوقية&quot;],&quot;cc22&quot;:[0,&quot;يمكنك الاعتماد علينا بالالتزام بالتوقيت والموثوقية. وقتك ثمين، ونحن نضمن أن تصل في الموعد المحدد.&quot;],&quot;cc23&quot;:[0,&quot;images/card2i1.jpg&quot;],&quot;cc31&quot;:[0,&quot;النزاهة&quot;],&quot;cc32&quot;:[0,&quot;نعمل بالصدق والشفافية، ونبني الثقة مع عملائنا من خلال التواصل الواضح والممارسات الأخلاقية.&quot;],&quot;cc33&quot;:[0,&quot;images/card2i2.jpg&quot;],&quot;c21&quot;:[0,&quot;أهدافنا&quot;],&quot;c22&quot;:[0,&quot;نتطلع إلى المستقبل، حيث هدفنا هو توسيع أسطولنا وتعزيز عروض خدماتنا، والاستمرار في كوننا رمزًا للرفاهية والراحة في صناعة النقل. نهدف إلى أن نكون خيار الاختيار للأفراد والشركات الباحثين عن حلول سفر متطورة. في أجيال العربة العربة، تتقاطع الفخامة والراحة والتطور لخلق تجربة سفر لا مثيل لها. انضم إلينا في هذه الرحلة ورفع طريقة نقلك.&quot;],&quot;cc41&quot;:[0,&quot;فخامة&quot;],&quot;cc43&quot;:[0,&quot;svgim/c1.svg&quot;],&quot;cc51&quot;:[0,&quot;ثقة&quot;],&quot;cc53&quot;:[0,&quot;svgim/c2.svg&quot;],&quot;cc61&quot;:[0,&quot;راحة&quot;],&quot;cc63&quot;:[0,&quot;svgim/c3.svg&quot;],&quot;d1&quot;:[0,&quot;أسطول سيارات أجيال العربة&quot;],&quot;d2&quot;:[0,&quot;أسطولنا من السيارات الفاخرة يشمل مجموعة متنوعة من الماركات والطرز لتناسب احتياجاتك. سواء كنت تبحث عن سيارة سيدان واسعة لعطلة عائلية أو سيارة رياضية أنيقة للخروج في المدينة، لدينا السيارة المثالية لك.&quot;],&quot;ebg1&quot;:[0,&quot;images/moni.jpg&quot;],&quot;e2&quot;:[0,&quot;الشهادات&quot;],&quot;e3&quot;:[0,&quot;ماذا يقول العملاء عنا&quot;],&quot;e4&quot;:[0,&quot;أردت فقط أن أقول شكرًا لكم على تجربة السفر المذهلة. لقد أعجبتني خدمتكم وأوصي بكم بشدة لأي شخص يبحث عن تجربة سفر فاخرة ومريحة.&quot;],&quot;ebg2&quot;:[0,&quot;images/l.jpg&quot;],&quot;e5&quot;:[0,&quot;عملاؤنا الرئيسيين&quot;],&quot;eimg1&quot;:[0,&quot;images/pt12.jpg&quot;],&quot;eimg2&quot;:[0,&quot;images/pt2.jpg&quot;],&quot;eimg3&quot;:[0,&quot;images/pt3.jpg&quot;],&quot;e6&quot;:[0,&quot;النقل غير الطارئ&quot;],&quot;e8&quot;:[0,&quot;هارت هاغرتي&quot;],&quot;ebg3&quot;:[0,&quot;images/mayguy.jpg&quot;],&quot;f1&quot;:[0,&quot;نحن نضمن أن كل رحلة آمنة ومريحة&quot;],&quot;f2&quot;:[0,&quot;نحن نأخذ سلامتك وراحتك على محمل الجد. يتم فحص وصيانة جميع مركباتنا بانتظام، وسائقونا مدربون بشكل جيد ولديهم خبرة عالية. نقدم أيضًا مجموعة متنوعة من ميزات السلامة، مثل أحزمة الأمان ووسائد الهواء، لضمان راحتك وسلامتك.&quot;],&quot;cf1&quot;:[0,&quot;متاح على مدار الساعة&quot;],&quot;cf2&quot;:[0,&quot;سائقين محترفين&quot;],&quot;cf3&quot;:[0,&quot;سعر ثابت&quot;],&quot;cf4&quot;:[0,&quot;ليموزين فاخرة&quot;],&quot;cf5&quot;:[0,&quot;سلامة عالية&quot;],&quot;cf6&quot;:[0,&quot;توصيل سريع&quot;],&quot;nt1&quot;:[0,&quot;أجيال&quot;],&quot;n1&quot;:[0,&quot;الخدمات&quot;],&quot;n2&quot;:[0,&quot;أسطول السيارات&quot;],&quot;n3&quot;:[0,&quot;اتصل بنا&quot;],&quot;n4&quot;:[0,&quot;احجز رحلة&quot;]}]}" ssr="" client="only" opts="{&quot;name&quot;:&quot;Carfleet&quot;,&quot;value&quot;:true}"></astro-island>
-<div class="min-h-screen w-full grid  grid-rows-2 md:w-[95%] text-right astro-KLH3PA2O">
-  <div class="grid md:p-8 min-h-[60vh] mob:grid-rows-3  md:grid-cols-3 bg-cover bg-center astro-KLH3PA2O" style="background-image: url('images/moni.jpg')">
-    <article class=" bg-base-100 md:rounded-2xl p-4 justify-evenly flex flex-col mob:row-start-3 col-start-3 h-full w-full astro-KLH3PA2O">
-      <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">الشهادات</h1>
-      <p class="text-amber-400 font-es astro-KLH3PA2O">ماذا يقول العملاء عنا</p>
-      <p class=" font-es xs:text-base  text-xl  astro-KLH3PA2O">أردت فقط أن أقول شكرًا لكم على تجربة السفر المذهلة. لقد أعجبتني خدمتكم وأوصي بكم بشدة لأي شخص يبحث عن تجربة سفر فاخرة ومريحة.</p>
-      <table class="table  astro-KLH3PA2O">
-        <tr class="astro-KLH3PA2O">
-          <td class="astro-KLH3PA2O">
-            <div class="flex items-center jc space-x-8 astro-KLH3PA2O">
-              <div class="avatar astro-KLH3PA2O">
-                <div class="mask mask-squircle w-16 h-16 astro-KLH3PA2O">
-                  <img src="images/mayguy.jpg" class="astro-KLH3PA2O">
-                </div>
-              </div>
-              <div class="astro-KLH3PA2O">
-                <div class="font-bold font-es text-2xl astro-KLH3PA2O">هارت هاغرتي</div>
-                <div class=" opacity-50 astro-KLH3PA2O"></div>
+          <div class="flex gap-4 flex-col mob:px-4  justify-evenly">
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car1.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="flex-row-reverse card-title astro-LHWSPMK3">تأجير سيارات فاخرة</h2>
+                <p class="md:max-w-sm text-right astro-LHWSPMK3">استكشف قمة الأناقة والأداء مع أسطولنا من السيارات
+                  الفاخرة من الدرجة الأولى. سواء كانت مناسبة خاصة أو رغبة في تذوق الرفاهية، نقدم مجموعة من السيارات
+                  الفاخرة التي تناسب كل أسلوب وتفضيل.</p>
               </div>
             </div>
-          </td>
-        </tr>
-      
-    </table>
-  </article></div>
-  <div class="grid md:p-8 mob:grid-rows-2 md:grid-cols-9 bg-contain bg-no-repeat  bg-bottom md:bg-right astro-KLH3PA2O" style="background-image: url('images/l.jpg')">
-    <article class=" p-4 grid grid-rows-3 h-full w-full col-span-4 astro-KLH3PA2O">
-      <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">عملاؤنا الرئيسيين</h1>
-      <div class=" w-full  row-span-2 flex flex-row items-center  justify-evenly  astro-KLH3PA2O">
-        <img src="images/pt12.jpg" class="h-48 astro-KLH3PA2O">
-        <img src="images/pt2.jpg" class="h-48 astro-KLH3PA2O">
-        <img src="images/pt3.jpg" class="h-48 astro-KLH3PA2O">
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car2.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="flex-row-reverse card-title astro-LHWSPMK3">حلول النقل الشركي</h2>
+                <p class="md:max-w-sm text-right astro-LHWSPMK3">رفع تفاعلات أعمالك مع خدمات النقل الشركي لدينا. يضمن
+                  سائقونا المخصصون الالتزام بالتوقيت والاحترافية، مما يجعل فعالياتك واجتماعاتك الشركية تجربة سلسة.</p>
+              </div>
+            </div>
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car3.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="flex-row-reverse card-title astro-LHWSPMK3">خدمة السائق الشخصية</h2>
+                <p class="md:max-w-sm text-right astro-LHWSPMK3">استلقِ واستمتع بالرحلة بينما يتنقل سائقونا ذوو الخبرة
+                  عبر الطرق. تقدم خدمات السائق الشخصي المخصصة لدينا وسيلة فاخرة وخالية من الإجهاد للسفر، مما يتيح لك
+                  التركيز على ما يهمك بشكل أكبر.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </article>
+    </div>
+  </main>
+
+  <!-- <div
+  class="sm:hidden border-t-[10vh] -mb-[10vh] border-t-base-300 border-r-[100vw] border-r-transparent"
+> -->
+  <div class="border-b-[10vh] border-b-black border-l-[100vw] border-l-transparent astro-HLE3Y4UW">
+  </div>
+  <div class="w-full h-[85vh] bg-black center1 astro-HLE3Y4UW">
+    <div class="h-full caroverly bg-contain md:bg-cover w-full  bg-no-repeat astro-HLE3Y4UW"
+      style="background-image: url(&#34;images/whyuscar.jpg&#34;)">
+    </div>
   </div>
 
-</div>
-<div class="careconter flex justify-center astro-BYV6WMXO">
-    <div id="car" class=" w-screen md:w-3/4 lg:w-3/5 bg-contain md:-mb-64 z-10 xs:-mb-28 -mb-48 aspect-video bg-center bg-no-repeat astro-BYV6WMXO"></div></div>
-<div class="bg-base-300 w-screen md:w-11/12 center3 md:border-t-[12rem] border-t-[8rem]   border-base-300   md:px-12 md:grid-cols-2 astro-BYV6WMXO">
+  <div class="pb-4 md:py-4 text-center text-white font-tp text-xl md:text-3xl lg:text-4xl bg-black text astro-HLE3Y4UW">
+    <h1 class="astro-HLE3Y4UW">سافر كما لم تفعل من قبل</h1>
+  </div>
+  <div class="border-t-[10vh] bg-base-300 border-t-black border-r-[100vw] border-r-transparent astro-HLE3Y4UW">
+  </div>
+
+  <div class="flex mob:flex-col justify-center bg-base-300 pt-4 md:gap-4 items-center">
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i3.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class=" card-title justify-center">التميز</h2>
+        <p class="text-right text-lg">نسعى للتميز في كل جانب من جوانب خدماتنا، من جودة مركباتنا إلى احترافية فريقنا.</p>
+      </div>
+    </div>
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i1.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class=" card-title justify-center">الموثوقية</h2>
+        <p class="text-right text-lg">يمكنك الاعتماد علينا بالالتزام بالتوقيت والموثوقية. وقتك ثمين، ونحن نضمن أن تصل في
+          الموعد المحدد.</p>
+      </div>
+    </div>
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i2.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class=" card-title justify-center">النزاهة</h2>
+        <p class="text-right text-lg">نعمل بالصدق والشفافية، ونبني الثقة مع عملائنا من خلال التواصل الواضح والممارسات
+          الأخلاقية.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-evenly bg-base-300 mob:flex-col items-center min-h-[80vh] astro-HLE3Y4UW">
+    <video src="video/test.mp4" controls class="md:w-2/5 w-full astro-HLE3Y4UW"></video>
+    <div class="card w-full md:w-2/5 rounded-none bg-base-300 astro-HLE3Y4UW">
+      <div class="card-body astro-HLE3Y4UW">
+        <h2 class="flex-row-reverse card-title text-2xl font-tp font-bold lg:text-3xl astro-HLE3Y4UW">
+          أهدافنا
+        </h2>
+        <p class="text-right text-lg astro-HLE3Y4UW">نتطلع إلى المستقبل، حيث هدفنا هو توسيع أسطولنا وتعزيز عروض خدماتنا،
+          والاستمرار في كوننا رمزًا للرفاهية والراحة في صناعة النقل. نهدف إلى أن نكون خيار الاختيار للأفراد والشركات
+          الباحثين عن حلول سفر متطورة. في أجيال العربة العربة، تتقاطع الفخامة والراحة والتطور لخلق تجربة سفر لا مثيل
+          لها. انضم إلينا في هذه الرحلة ورفع طريقة نقلك.</p>
+        <div id="f2-10" class="grid md:gap-4 grid-cols-3 mt-4 w-full astro-HLE3Y4UW">
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c1.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">فخامة</h2>
+          </div>
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c2.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">ثقة</h2>
+          </div>
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c3.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">راحة</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t-[20vh] bg-base-100 border-t-base-300 border-l-[100vw] border-l-transparent astro-HLE3Y4UW"></div>
+  <style>
+    astro-island,
+    astro-slot,
+    astro-static-slot {
+      display: contents
+    }
+  </style>
+  <script>(() => { var e = async t => { await (await t())() }; (self.Astro || (self.Astro = {})).only = e; window.dispatchEvent(new Event("astro:only")); })();; (() => { var d; { let h = { 0: t => t, 1: t => JSON.parse(t, a), 2: t => new RegExp(t), 3: t => new Date(t), 4: t => new Map(JSON.parse(t, a)), 5: t => new Set(JSON.parse(t, a)), 6: t => BigInt(t), 7: t => new URL(t), 8: t => new Uint8Array(JSON.parse(t)), 9: t => new Uint16Array(JSON.parse(t)), 10: t => new Uint32Array(JSON.parse(t)) }, a = (t, e) => { if (t === "" || !Array.isArray(e)) return e; let [r, n] = e; return r in h ? h[r](n) : void 0 }; customElements.get("astro-island") || customElements.define("astro-island", (d = class extends HTMLElement { constructor() { super(...arguments); this.hydrate = async () => { var o; if (!this.hydrator || !this.isConnected) return; let e = (o = this.parentElement) == null ? void 0 : o.closest("astro-island[ssr]"); if (e) { e.addEventListener("astro:hydrate", this.hydrate, { once: !0 }); return } let r = this.querySelectorAll("astro-slot"), n = {}, c = this.querySelectorAll("template[data-astro-template]"); for (let s of c) { let i = s.closest(this.tagName); i != null && i.isSameNode(this) && (n[s.getAttribute("data-astro-template") || "default"] = s.innerHTML, s.remove()) } for (let s of r) { let i = s.closest(this.tagName); i != null && i.isSameNode(this) && (n[s.getAttribute("name") || "default"] = s.innerHTML) } let l = this.hasAttribute("props") ? JSON.parse(this.getAttribute("props"), a) : {}; await this.hydrator(this)(this.Component, l, n, { client: this.getAttribute("client") }), this.removeAttribute("ssr"), this.dispatchEvent(new CustomEvent("astro:hydrate")) } } connectedCallback() { !this.hasAttribute("await-children") || this.firstChild ? this.childrenConnectedCallback() : new MutationObserver((e, r) => { r.disconnect(), setTimeout(() => this.childrenConnectedCallback(), 0) }).observe(this, { childList: !0 }) } async childrenConnectedCallback() { let e = this.getAttribute("before-hydration-url"); e && await import(e), this.start() } start() { let e = JSON.parse(this.getAttribute("opts")), r = this.getAttribute("client"); if (Astro[r] === void 0) { window.addEventListener(`astro:${r}`, () => this.start(), { once: !0 }); return } Astro[r](async () => { let n = this.getAttribute("renderer-url"), [c, { default: l }] = await Promise.all([import(this.getAttribute("component-url")), n ? import(n) : () => () => { }]), o = this.getAttribute("component-export") || "default"; if (!o.includes(".")) this.Component = c[o]; else { this.Component = c; for (let s of o.split(".")) this.Component = this.Component[s] } return this.hydrator = l, this.hydrate }, e, this) } attributeChangedCallback() { this.hydrate() } }, d.observedAttributes = ["props"], d)) } })();</script>
+  <astro-island uid="ZRAczS" component-url="./section4.6e6a0fd4.js" component-export="default"
+    renderer-url="./client.c4e17359.js"
+    props="{&quot;pd&quot;:[0,{&quot;type&quot;:[0,&quot;AR&quot;],&quot;a1&quot;:[0,&quot;أفضل خدمة نقل في المملكة العربية السعودية&quot;],&quot;a2&quot;:[0,&quot;احجز الآن&quot;],&quot;a3&quot;:[0,&quot;سافر كملك&quot;],&quot;abg1&quot;:[0,&quot;images/image3.jpg&quot;],&quot;b2&quot;:[0,&quot;مكان واحد لجميع خدمات النقل والسفر والإيجار&quot;],&quot;b3&quot;:[0,&quot;أجيال العربة@&quot;],&quot;b4&quot;:[0,&quot;في أجيال العربة، نحن ملتزمون بتقديم رفاهية وراحة لا مثيل لهما لعملائنا من خلال خدمات تأجير السيارات الفاخرة والسائق. مهمتنا هي توفير تجربة سفر سلسة وفاخرة تتجاوز التوقعات وتضيف قيمة لكل رحلة.&quot;],&quot;b5&quot;:[0,&quot;Ahmaed@ajyalalarabah.com&quot;],&quot;cb11&quot;:[0,&quot;تأجير سيارات فاخرة&quot;],&quot;cb12&quot;:[0,&quot;استكشف قمة الأناقة والأداء مع أسطولنا من السيارات الفاخرة من الدرجة الأولى. سواء كانت مناسبة خاصة أو رغبة في تذوق الرفاهية، نقدم مجموعة من السيارات الفاخرة التي تناسب كل أسلوب وتفضيل.&quot;],&quot;cb13&quot;:[0,&quot;car1.jpg&quot;],&quot;cb21&quot;:[0,&quot;حلول النقل الشركي&quot;],&quot;cb22&quot;:[0,&quot;رفع تفاعلات أعمالك مع خدمات النقل الشركي لدينا. يضمن سائقونا المخصصون الالتزام بالتوقيت والاحترافية، مما يجعل فعالياتك واجتماعاتك الشركية تجربة سلسة.&quot;],&quot;cb23&quot;:[0,&quot;car2.jpg&quot;],&quot;cb31&quot;:[0,&quot;خدمة السائق الشخصية&quot;],&quot;cb32&quot;:[0,&quot;استلقِ واستمتع بالرحلة بينما يتنقل سائقونا ذوو الخبرة عبر الطرق. تقدم خدمات السائق الشخصي المخصصة لدينا وسيلة فاخرة وخالية من الإجهاد للسفر، مما يتيح لك التركيز على ما يهمك بشكل أكبر.&quot;],&quot;cb33&quot;:[0,&quot;car3.jpg&quot;],&quot;cbg1&quot;:[0,&quot;images/whyuscar.jpg&quot;],&quot;c1&quot;:[0,&quot;سافر كما لم تفعل من قبل&quot;],&quot;cc11&quot;:[0,&quot;التميز&quot;],&quot;cc12&quot;:[0,&quot;نسعى للتميز في كل جانب من جوانب خدماتنا، من جودة مركباتنا إلى احترافية فريقنا.&quot;],&quot;cc13&quot;:[0,&quot;images/card2i3.jpg&quot;],&quot;cc21&quot;:[0,&quot;الموثوقية&quot;],&quot;cc22&quot;:[0,&quot;يمكنك الاعتماد علينا بالالتزام بالتوقيت والموثوقية. وقتك ثمين، ونحن نضمن أن تصل في الموعد المحدد.&quot;],&quot;cc23&quot;:[0,&quot;images/card2i1.jpg&quot;],&quot;cc31&quot;:[0,&quot;النزاهة&quot;],&quot;cc32&quot;:[0,&quot;نعمل بالصدق والشفافية، ونبني الثقة مع عملائنا من خلال التواصل الواضح والممارسات الأخلاقية.&quot;],&quot;cc33&quot;:[0,&quot;images/card2i2.jpg&quot;],&quot;c21&quot;:[0,&quot;أهدافنا&quot;],&quot;c22&quot;:[0,&quot;نتطلع إلى المستقبل، حيث هدفنا هو توسيع أسطولنا وتعزيز عروض خدماتنا، والاستمرار في كوننا رمزًا للرفاهية والراحة في صناعة النقل. نهدف إلى أن نكون خيار الاختيار للأفراد والشركات الباحثين عن حلول سفر متطورة. في أجيال العربة العربة، تتقاطع الفخامة والراحة والتطور لخلق تجربة سفر لا مثيل لها. انضم إلينا في هذه الرحلة ورفع طريقة نقلك.&quot;],&quot;cc41&quot;:[0,&quot;فخامة&quot;],&quot;cc43&quot;:[0,&quot;svgim/c1.svg&quot;],&quot;cc51&quot;:[0,&quot;ثقة&quot;],&quot;cc53&quot;:[0,&quot;svgim/c2.svg&quot;],&quot;cc61&quot;:[0,&quot;راحة&quot;],&quot;cc63&quot;:[0,&quot;svgim/c3.svg&quot;],&quot;d1&quot;:[0,&quot;أسطول سيارات أجيال العربة&quot;],&quot;d2&quot;:[0,&quot;أسطولنا من السيارات الفاخرة يشمل مجموعة متنوعة من الماركات والطرز لتناسب احتياجاتك. سواء كنت تبحث عن سيارة سيدان واسعة لعطلة عائلية أو سيارة رياضية أنيقة للخروج في المدينة، لدينا السيارة المثالية لك.&quot;],&quot;ebg1&quot;:[0,&quot;images/moni.jpg&quot;],&quot;e2&quot;:[0,&quot;الشهادات&quot;],&quot;e3&quot;:[0,&quot;ماذا يقول العملاء عنا&quot;],&quot;e4&quot;:[0,&quot;أردت فقط أن أقول شكرًا لكم على تجربة السفر المذهلة. لقد أعجبتني خدمتكم وأوصي بكم بشدة لأي شخص يبحث عن تجربة سفر فاخرة ومريحة.&quot;],&quot;ebg2&quot;:[0,&quot;images/l.jpg&quot;],&quot;e5&quot;:[0,&quot;عملاؤنا الرئيسيين&quot;],&quot;eimg1&quot;:[0,&quot;images/pt12.jpg&quot;],&quot;eimg2&quot;:[0,&quot;images/pt2.jpg&quot;],&quot;eimg3&quot;:[0,&quot;images/pt3.jpg&quot;],&quot;e6&quot;:[0,&quot;النقل غير الطارئ&quot;],&quot;e8&quot;:[0,&quot;هارت هاغرتي&quot;],&quot;ebg3&quot;:[0,&quot;images/mayguy.jpg&quot;],&quot;f1&quot;:[0,&quot;نحن نضمن أن كل رحلة آمنة ومريحة&quot;],&quot;f2&quot;:[0,&quot;نحن نأخذ سلامتك وراحتك على محمل الجد. يتم فحص وصيانة جميع مركباتنا بانتظام، وسائقونا مدربون بشكل جيد ولديهم خبرة عالية. نقدم أيضًا مجموعة متنوعة من ميزات السلامة، مثل أحزمة الأمان ووسائد الهواء، لضمان راحتك وسلامتك.&quot;],&quot;cf1&quot;:[0,&quot;متاح على مدار الساعة&quot;],&quot;cf2&quot;:[0,&quot;سائقين محترفين&quot;],&quot;cf3&quot;:[0,&quot;سعر ثابت&quot;],&quot;cf4&quot;:[0,&quot;ليموزين فاخرة&quot;],&quot;cf5&quot;:[0,&quot;سلامة عالية&quot;],&quot;cf6&quot;:[0,&quot;توصيل سريع&quot;],&quot;nt1&quot;:[0,&quot;أجيال&quot;],&quot;n1&quot;:[0,&quot;الخدمات&quot;],&quot;n2&quot;:[0,&quot;أسطول السيارات&quot;],&quot;n3&quot;:[0,&quot;اتصل بنا&quot;],&quot;n4&quot;:[0,&quot;احجز رحلة&quot;]}]}"
+    ssr="" client="only" opts="{&quot;name&quot;:&quot;Carfleet&quot;,&quot;value&quot;:true}"></astro-island>
+  <div class="min-h-screen w-full grid  grid-rows-2 md:w-[95%] text-right astro-KLH3PA2O">
+    <div class="grid md:p-8 min-h-[60vh] mob:grid-rows-3  md:grid-cols-3 bg-cover bg-center astro-KLH3PA2O"
+      style="background-image: url('images/moni.jpg')">
+      <article
+        class=" bg-base-100 md:rounded-2xl p-4 justify-evenly flex flex-col mob:row-start-3 col-start-3 h-full w-full astro-KLH3PA2O">
+        <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">الشهادات</h1>
+        <p class="text-amber-400 font-es astro-KLH3PA2O">ماذا يقول العملاء عنا</p>
+        <p class=" font-es xs:text-base  text-xl  astro-KLH3PA2O">أردت فقط أن أقول شكرًا لكم على تجربة السفر المذهلة.
+          لقد أعجبتني خدمتكم وأوصي بكم بشدة لأي شخص يبحث عن تجربة سفر فاخرة ومريحة.</p>
+        <table class="table  astro-KLH3PA2O">
+          <tr class="astro-KLH3PA2O">
+            <td class="astro-KLH3PA2O">
+              <div class="flex items-center jc space-x-8 astro-KLH3PA2O">
+                <div class="avatar astro-KLH3PA2O">
+                  <div class="mask mask-squircle w-16 h-16 astro-KLH3PA2O">
+                    <img src="images/mayguy.jpg" class="astro-KLH3PA2O">
+                  </div>
+                </div>
+                <div class="astro-KLH3PA2O">
+                  <div class="font-bold font-es text-2xl astro-KLH3PA2O">هارت هاغرتي</div>
+                  <div class=" opacity-50 astro-KLH3PA2O"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </article>
+    </div>
+    <div
+      class="grid md:p-8 mob:grid-rows-2 md:grid-cols-9 bg-contain bg-no-repeat  bg-bottom md:bg-right astro-KLH3PA2O"
+      style="background-image: url('images/l.jpg')">
+      <article class=" p-4 grid grid-rows-3 h-full w-full col-span-4 astro-KLH3PA2O">
+        <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">عملاؤنا الرئيسيين</h1>
+        <div class=" w-full  row-span-2 center3 grid-cols-3 xs:grid-cols-2  astro-KLH3PA2O">
+          <img src="images/pt12.jpg" class="w-full astro-KLH3PA2O">
+          <img src="images/pt2.jpg" class="max-h-48 astro-KLH3PA2O">
+          <img src="images/pt3.jpg" class="max-h-48 astro-KLH3PA2O">
+        </div>
+      </article>
+    </div>
+
+  </div>
+  <div class="careconter flex justify-center astro-BYV6WMXO">
+    <div id="car"
+      class=" w-screen md:w-3/4 lg:w-3/5 bg-contain md:-mb-64 z-10 xs:-mb-28 -mb-48 aspect-video bg-center bg-no-repeat astro-BYV6WMXO">
+    </div>
+  </div>
+  <div
+    class="bg-base-300 w-screen md:w-11/12 center3 md:border-t-[12rem] border-t-[8rem]   border-base-300   md:px-12 md:grid-cols-2 astro-BYV6WMXO">
     <div class="bg-base-300 w-full md:h-full  astro-BYV6WMXO">
-        <article class="card-body mob:py-4 astro-BYV6WMXO">
-            <!-- todo edit this section -->
-            <h1 class="text-4xl lg:text-5xl font-bold  astro-BYV6WMXO">نحن نضمن أن كل رحلة آمنة ومريحة</h1>
-            <p class=" sm:text-lg  astro-BYV6WMXO">نحن نأخذ سلامتك وراحتك على محمل الجد. يتم فحص وصيانة جميع مركباتنا بانتظام، وسائقونا مدربون بشكل جيد ولديهم خبرة عالية. نقدم أيضًا مجموعة متنوعة من ميزات السلامة، مثل أحزمة الأمان ووسائد الهواء، لضمان راحتك وسلامتك.</p>
-        </article>
+      <article class="card-body mob:py-4 astro-BYV6WMXO">
+        <!-- todo edit this section -->
+        <h1 class="text-4xl lg:text-5xl font-bold  astro-BYV6WMXO">نحن نضمن أن كل رحلة آمنة ومريحة</h1>
+        <p class=" sm:text-lg  astro-BYV6WMXO">نحن نأخذ سلامتك وراحتك على محمل الجد. يتم فحص وصيانة جميع مركباتنا
+          بانتظام، وسائقونا مدربون بشكل جيد ولديهم خبرة عالية. نقدم أيضًا مجموعة متنوعة من ميزات السلامة، مثل أحزمة
+          الأمان ووسائد الهواء، لضمان راحتك وسلامتك.</p>
+      </article>
     </div>
     <div id="maingrid" class="bg-base-300  grid-cols-2 md:grid-cols-3 gap-1 w-full   center3 astro-BYV6WMXO">
-        <div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a1.svg)"></div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a1.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">متاح على مدار الساعة</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a2.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">سائقين محترفين</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a3.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">سعر ثابت</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a4.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">ليموزين فاخرة</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a5.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">سلامة عالية</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a6.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">توصيل سريع</h2>
+      </div>
     </div>
-      <h2 class="text-center text-xl font-tp p-4">متاح على مدار الساعة</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a2.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">سائقين محترفين</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a3.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">سعر ثابت</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a4.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">ليموزين فاخرة</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a5.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">سلامة عالية</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a6.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">توصيل سريع</h2>
-  </div> 
-    </div>
-</div>
-<footer class="footer p-10 bg-base-200 text-base-content">
-  
+  </div>
+  <footer class="footer p-10 bg-base-200 text-base-content">
+
     <!-- <div>
       <span class="footer-title">Legal</span> 
       <a class="link link-hover">Terms of use</a> 
       <a class="link link-hover">Privacy policy</a> 
       <a class="link link-hover">Cookie policy</a>
     </div> -->
-  </footer> 
+  </footer>
   <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
     <div class="items-center grid-flow-col">
-      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+        clip-rule="evenodd" class="fill-current">
+        <path
+          d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+        </path>
+      </svg>
       <p>Ajyal Alarabah Ltd. <br>Providing transportation solutions for everyone</p>
-    </div> 
+    </div>
     <div class="md:place-self-center md:justify-self-end">
       <div class="grid grid-flow-col gap-4">
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+            </path>
+          </svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+            </path>
+          </svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+            </path>
+          </svg></a>
       </div>
     </div>
   </footer>
 
-	</body></html>
+</body>
+
+</html>

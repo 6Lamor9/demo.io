@@ -1,241 +1,353 @@
 <!DOCTYPE html>
 <html lang="en" class="light" data-theme="light">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" type="image/svg+xml" href="/logo.svg">
-		<meta name="generator" content="Astro v2.8.5">
-		<title>Home</title>
-	<link rel="stylesheet" href="./styles.css" />
-<link rel="stylesheet" href="./arstyles.css" /><script type="module">const n=new IntersectionObserver(e=>{e.forEach(r=>{r.isIntersecting?r.target.classList.add("show"):r.target.classList.remove("show")})}),i=document.querySelectorAll(".servercard");i.forEach(e=>{n.observe(e)});function c(e,r){const t=new IntersectionObserver(l=>{l.forEach(s=>{s.isIntersecting?s.target.classList.add(e):s.target.classList.remove(e)})}),a=document.querySelector(r);t.observe(a)}c("caroverlyshow",".caroverly");const o=document.querySelectorAll(".mycard2");o.forEach(e=>{let r=Array.from(o).indexOf(e)+1;c("mycard2show",`.mycard2:nth-child(${r})`)});
-</script></head>
-	<body class="">
 
-		
-<div class="navbar bg-base-100 font-os z-50  fixed top-0 ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Astro description">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/svg+xml" href="/logo.svg">
+  <meta name="generator" content="Astro v2.8.5">
+  <title>Home</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="module">const n = new IntersectionObserver(e => { e.forEach(r => { r.isIntersecting ? r.target.classList.add("show") : r.target.classList.remove("show") }) }), i = document.querySelectorAll(".servercard"); i.forEach(e => { n.observe(e) }); function c(e, r) { const t = new IntersectionObserver(l => { l.forEach(s => { s.isIntersecting ? s.target.classList.add(e) : s.target.classList.remove(e) }) }), a = document.querySelector(r); t.observe(a) } c("caroverlyshow", ".caroverly"); const o = document.querySelectorAll(".mycard2"); o.forEach(e => { let r = Array.from(o).indexOf(e) + 1; c("mycard2show", `.mycard2:nth-child(${r})`) });
+  </script>
+</head>
+
+<body class="">
+
+
+  <div class="navbar bg-base-100 font-os z-50  fixed top-0 ">
     <div class="navbar-start ">
       <div class="dropdown">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+          </svg>
         </label>
-        <ul tabindex="0" class="menu menu-lg   decoration-slice text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a href="#services">services</a></li><li><a href="/fleet">Car Fleet</a></li><li><a href="/contact">contact us</a></li>
+        <ul tabindex="0"
+          class="menu menu-lg   decoration-slice text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a href="#services">services</a></li>
+          <li><a href="/fleet">Car Fleet</a></li>
+          <li><a href="/contact">contact us</a></li>
         </ul>
       </div>
       <a class="btn btn-ghost normal-case text-2xl font-ax" href="/">AJYAL</a>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal text-lg  px-1">
-        <li><a href="#services">services</a></li><li><a href="/fleet">Car Fleet</a></li><li><a href="/contact">contact us</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="/fleet">Car Fleet</a></li>
+        <li><a href="/contact">contact us</a></li>
       </ul>
     </div>
     <div class="navbar-end ">
-      <a class="btn btn-base-300 text-black" href="/contact">Book a Ride</a>
+      <a class="btn btn-base-300 text-black" href="/ar">AR</a>
     </div>
   </div>
-<div class="hero min-h-screen" style="background-image: url('images/image3.jpg')">
-  <div class="hero-overlay bg-opacity-60"></div>
-  <div class="hero-content text-center text-neutral-content">
-    <div class="w-full md:w-1/2">
-      <h1 class="mb-5 text-4xl md:text-5xl  font-dl changeable " id="a1">the best transportation service in the KSA</h1>
-      <p class="mb-5 text-lg font-es changeable" id="a3">Travel Like a King</p>
-      <a class="btn  btn-base-300 font-os changeable" id="a2" href="/contact">Book Now</a>
-    </div>
-  </div>
-  <div class="  border-b-[11vh]   absolute bottom-0 border-b-base-100 border-l-[100vw] border-l-transparent"></div>
-</div>
+  <div class="hero min-h-screen" style="background-image: url('images/image3.jpg')">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="w-full md:w-1/2">
+        <h1 class="mb-5 xs:text-3xl text-4xl sm:text-5xl md:text-6xl   font-dl changeable " id="a1">the best travel service in KSA</h1>
 
-<main class="bg-base-100 overflow-hidden">
-  <div class="hero bg-base font-es">
-    <div class="hero-content text-center">
-      <div class=" max-w-xl">
-        <h2 class="text-xl font-bold">one place for all Transportation, Travel, and Rental services</h2>
+        <p class="mb-5 text-lg font-es changeable" id="a3">Travel Like a King</p>
+        <a class="btn  btn-base-300 font-os changeable" id="a2" href="/contact">Book Now</a>
       </div>
     </div>
+    <div class="  border-b-[11vh]   absolute bottom-0 border-b-base-100 border-l-[100vw] border-l-transparent"></div>
   </div>
-  <div>
-    <div class="container min-h-[80vh] mx-auto">
-      <div class="flex md:gap-4 lg:p-8 mob:flex-col " id="services">
-        <div class="w-full md:w-2/5">
-          <div class="p-4 inline-flex gap-4 justify-center h-full text-right flex-col">
-            <h2 class="text-3xl font-bold lg:text-5xl font-hd">@Ajyal Alarabah</h2>
-            <p class="text-xl">At Ajyal Alarabah, we are dedicated to delivering unparalleled luxury and convenience to our clients through our premium car rental and chauffeur services. Our mission is to provide a seamless and luxurious travel experience that exceeds expectations and adds value to every journey.</p>
-            <p class="text-lg md:text-xl text-yellow-500 text-center">
-              Ahmaed@ajyalalarabah.com
-            </p>
+
+  <main class="bg-base-100 overflow-hidden">
+    <div class="hero bg-base font-es">
+      <div class="hero-content text-center">
+        <div class=" max-w-xl">
+          <h2 class="text-xl font-bold">one place for all Transportation, Travel, and Rental services</h2>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container min-h-[80vh] mx-auto">
+        <div class="flex md:gap-4 lg:p-8 mob:flex-col " id="services">
+          <div class="w-full md:w-2/5">
+            <div class="p-4 inline-flex gap-4 justify-center h-full text-right flex-col">
+              <h2 class="text-3xl font-bold lg:text-5xl font-hd">@Ajyal Alarabah</h2>
+              <p class="text-xl">At Ajyal Alarabah, we are dedicated to delivering unparalleled luxury and convenience
+                to our clients through our premium car rental and chauffeur services. Our mission is to provide a
+                seamless and luxurious travel experience that exceeds expectations and adds value to every journey.</p>
+              <p class="text-lg md:text-xl text-yellow-500 text-center">
+                Ahmaed@ajyalalarabah.com
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="flex gap-4 flex-col mob:px-4  justify-evenly">
-          <div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car1.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="card-title astro-LHWSPMK3">Luxury Car Rental</h2>
-      <p class="md:max-w-sm astro-LHWSPMK3">Explore the epitome of elegance and performance with our fleet of top-tier luxury cars.</p>
-    </div>
-  </div><div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car2.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="card-title astro-LHWSPMK3">Corporate Transportation Solutions</h2>
-      <p class="md:max-w-sm astro-LHWSPMK3">Elevate your business engagements with our corporate transportation services.</p>
-    </div>
-  </div><div class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
-    <figure class="astro-LHWSPMK3"><img src="images/car3.jpg" alt="Shoes" class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
-    <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
-      <h2 class="card-title astro-LHWSPMK3">Personalized Chauffeur Service</h2>
-      <p class="md:max-w-sm astro-LHWSPMK3">Sit back, relax, and enjoy the journey while our experienced chauffeurs navigate the roads.</p>
-    </div>
-  </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</main>
-
-<!-- <div
-  class="sm:hidden border-t-[10vh] -mb-[10vh] border-t-base-300 border-r-[100vw] border-r-transparent"
-> --><div class="border-b-[10vh] border-b-black border-l-[100vw] border-l-transparent astro-HLE3Y4UW">
-</div>
-<div class="w-full h-[85vh] bg-black center1 astro-HLE3Y4UW">
-  <div class="h-full caroverly bg-contain md:bg-cover w-full  bg-no-repeat astro-HLE3Y4UW" style="background-image: url(&#34;images/whyuscar.jpg&#34;)">
-  </div>
-</div>
-
-<div class="pb-4 md:py-4 text-center text-white font-tp text-xl md:text-3xl lg:text-4xl bg-black text astro-HLE3Y4UW">
-  <h1 class="astro-HLE3Y4UW">Travel like Naver Before</h1>
-</div>
-<div class="border-t-[10vh] bg-base-300 border-t-black border-r-[100vw] border-r-transparent astro-HLE3Y4UW">
-</div>
-
-<div class="flex mob:flex-col justify-center bg-base-300 pt-4 md:gap-4 items-center"><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i3.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class="card-title">Excellence</h2> <p class="text-lg">We strive for excellence in every aspect of our services, from the quality of our vehicles to the professionalism of our team.</p></div> </div><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i1.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class="card-title">Reliability</h2> <p class="text-lg">You can count on us for punctuality and reliability. Your time is valuable, and we ensure you arrive on schedule.</p></div> </div><div class="card mycard2 card-compact w-full md:w-96 rounded-xl"><figure class="p-4"><img src="images/card2i2.jpg" alt="Shoes" class="rounded-xl"></figure> <div class="card-body"><h2 class="card-title">Integrity</h2> <p class="text-lg">We operate with honesty and transparency, building trust with our clients through clear communication and ethical practices.</p></div> </div></div>
-<div class="flex justify-evenly bg-base-300 mob:flex-col items-center min-h-[80vh] astro-HLE3Y4UW">
-  <video src="video/test.mp4" controls class="md:w-2/5 w-full astro-HLE3Y4UW"></video>
-  <div class="card w-full md:w-2/5 rounded-none bg-base-300 astro-HLE3Y4UW">
-    <div class="card-body astro-HLE3Y4UW">
-      <h2 class="card-title text-2xl font-tp font-bold lg:text-3xl astro-HLE3Y4UW">
-        Our Goals
-      </h2>
-      <p class=" text-lg astro-HLE3Y4UW">As we look ahead, our goal is to expand our fleet, enhance our service offerings, and continue being a symbol of luxury and comfort in the transportation industry, We aim to be the go-to choice for individuals and businesses seeking refined travel solutions. At Ajyal Alarabah, luxury, convenience, and sophistication converge to create an unparalleled travel experience. Join us on this journey and elevate the way you transport .</p>
-      <div id="f2-10" class="grid md:gap-4 grid-cols-3 mt-4 w-full astro-HLE3Y4UW">
-        <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c1.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">Luxury</h2>
-              </div><div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c2.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">truest</h2>
-              </div><div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
-                <img src="svgim/c3.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
-                <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">Comfort</h2>
-              </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="border-t-[20vh] bg-base-100 border-t-base-300 border-l-[100vw] border-l-transparent astro-HLE3Y4UW"></div>
-<style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();;(()=>{var d;{let h={0:t=>t,1:t=>JSON.parse(t,a),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,a)),5:t=>new Set(JSON.parse(t,a)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(JSON.parse(t)),9:t=>new Uint16Array(JSON.parse(t)),10:t=>new Uint32Array(JSON.parse(t))},a=(t,e)=>{if(t===""||!Array.isArray(e))return e;let[r,n]=e;return r in h?h[r](n):void 0};customElements.get("astro-island")||customElements.define("astro-island",(d=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=async()=>{var o;if(!this.hydrator||!this.isConnected)return;let e=(o=this.parentElement)==null?void 0:o.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),n={},c=this.querySelectorAll("template[data-astro-template]");for(let s of c){let i=s.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[s.getAttribute("data-astro-template")||"default"]=s.innerHTML,s.remove())}for(let s of r){let i=s.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[s.getAttribute("name")||"default"]=s.innerHTML)}let l=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),a):{};await this.hydrator(this)(this.Component,l,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((e,r)=>{r.disconnect(),setTimeout(()=>this.childrenConnectedCallback(),0)}).observe(this,{childList:!0})}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}Astro[r](async()=>{let n=this.getAttribute("renderer-url"),[c,{default:l}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),o=this.getAttribute("component-export")||"default";if(!o.includes("."))this.Component=c[o];else{this.Component=c;for(let s of o.split("."))this.Component=this.Component[s]}return this.hydrator=l,this.hydrate},e,this)}attributeChangedCallback(){this.hydrate()}},d.observedAttributes=["props"],d))}})();</script><astro-island uid="1jxXqi" component-url="/_astro/section4.6e6a0fd4.js" component-export="default" renderer-url="/_astro/client.c4e17359.js" props="{&quot;pd&quot;:[0,{&quot;type&quot;:[0,&quot;EN&quot;],&quot;a1&quot;:[0,&quot;the best transportation service in the KSA&quot;],&quot;a2&quot;:[0,&quot;Book Now&quot;],&quot;a3&quot;:[0,&quot;Travel Like a King&quot;],&quot;abg1&quot;:[0,&quot;images/image3.jpg&quot;],&quot;b2&quot;:[0,&quot;one place for all Transportation, Travel, and Rental services&quot;],&quot;b3&quot;:[0,&quot;@Ajyal Alarabah&quot;],&quot;b4&quot;:[0,&quot;At Ajyal Alarabah, we are dedicated to delivering unparalleled luxury and convenience to our clients through our premium car rental and chauffeur services. Our mission is to provide a seamless and luxurious travel experience that exceeds expectations and adds value to every journey.&quot;],&quot;b5&quot;:[0,&quot;Ahmaed@ajyalalarabah.com&quot;],&quot;cb11&quot;:[0,&quot;Luxury Car Rental&quot;],&quot;cb12&quot;:[0,&quot;Explore the epitome of elegance and performance with our fleet of top-tier luxury cars.&quot;],&quot;cb13&quot;:[0,&quot;car1.jpg&quot;],&quot;cb21&quot;:[0,&quot;Corporate Transportation Solutions&quot;],&quot;cb22&quot;:[0,&quot;Elevate your business engagements with our corporate transportation services.&quot;],&quot;cb23&quot;:[0,&quot;car2.jpg&quot;],&quot;cb31&quot;:[0,&quot;Personalized Chauffeur Service&quot;],&quot;cb32&quot;:[0,&quot;Sit back, relax, and enjoy the journey while our experienced chauffeurs navigate the roads.&quot;],&quot;cb33&quot;:[0,&quot;car3.jpg&quot;],&quot;cbg1&quot;:[0,&quot;images/whyuscar.jpg&quot;],&quot;c1&quot;:[0,&quot;Travel like Naver Before&quot;],&quot;cc11&quot;:[0,&quot;Excellence&quot;],&quot;cc12&quot;:[0,&quot;We strive for excellence in every aspect of our services, from the quality of our vehicles to the professionalism of our team.&quot;],&quot;cc13&quot;:[0,&quot;images/card2i3.jpg&quot;],&quot;cc21&quot;:[0,&quot;Reliability&quot;],&quot;cc22&quot;:[0,&quot;You can count on us for punctuality and reliability. Your time is valuable, and we ensure you arrive on schedule.&quot;],&quot;cc23&quot;:[0,&quot;images/card2i1.jpg&quot;],&quot;cc31&quot;:[0,&quot;Integrity&quot;],&quot;cc32&quot;:[0,&quot;We operate with honesty and transparency, building trust with our clients through clear communication and ethical practices.&quot;],&quot;cc33&quot;:[0,&quot;images/card2i2.jpg&quot;],&quot;c21&quot;:[0,&quot;Our Goals&quot;],&quot;c22&quot;:[0,&quot;As we look ahead, our goal is to expand our fleet, enhance our service offerings, and continue being a symbol of luxury and comfort in the transportation industry, We aim to be the go-to choice for individuals and businesses seeking refined travel solutions. At Ajyal Alarabah, luxury, convenience, and sophistication converge to create an unparalleled travel experience. Join us on this journey and elevate the way you transport .&quot;],&quot;cc41&quot;:[0,&quot;Luxury&quot;],&quot;cc43&quot;:[0,&quot;svgim/c1.svg&quot;],&quot;cc51&quot;:[0,&quot;truest&quot;],&quot;cc53&quot;:[0,&quot;svgim/c2.svg&quot;],&quot;cc61&quot;:[0,&quot;Comfort&quot;],&quot;cc63&quot;:[0,&quot;svgim/c3.svg&quot;],&quot;d1&quot;:[0,&quot;Ajyal Alarabah Car Fleet&quot;],&quot;d2&quot;:[0,&quot;Our fleet of luxury cars includes a variety of makes and models to suit your needs. Whether you&#39;re looking for a spacious sedan for a family vacation or a sleek sports car for a night out on the town, we have the perfect vehicle for you.&quot;],&quot;ebg1&quot;:[0,&quot;images/moni.jpg&quot;],&quot;e2&quot;:[0,&quot;testimonials&quot;],&quot;e3&quot;:[0,&quot;what customers say about us&quot;],&quot;e4&quot;:[0,&quot;I just wanted to say thank you for the amazing travel experience. I was so impressed with your service and would highly recommend you to anyone looking for a luxurious and convenient travel experience.&quot;],&quot;ebg2&quot;:[0,&quot;images/l.jpg&quot;],&quot;e5&quot;:[0,&quot;Our Major Clients&quot;],&quot;eimg1&quot;:[0,&quot;images/pt12.jpg&quot;],&quot;eimg2&quot;:[0,&quot;images/pt2.jpg&quot;],&quot;eimg3&quot;:[0,&quot;images/pt3.jpg&quot;],&quot;e6&quot;:[0,&quot;non-emergency transportation&quot;],&quot;e8&quot;:[0,&quot;Hart Hagerty&quot;],&quot;ebg3&quot;:[0,&quot;images/mayguy.jpg&quot;],&quot;f1&quot;:[0,&quot;we make sure that every trip is safe and comfortable&quot;],&quot;f2&quot;:[0,&quot;We take your safety and comfort very seriously. All of our vehicles are regularly inspected and maintained, and our chauffeurs are highly trained and experienced. We also offer a variety of safety features, such as seat belts and airbags, to ensure your peace of mind.&quot;],&quot;cf1&quot;:[0,&quot;Available 24/7&quot;],&quot;cf2&quot;:[0,&quot;Professional Drivers&quot;],&quot;cf3&quot;:[0,&quot;Fixed price&quot;],&quot;cf4&quot;:[0,&quot;Luxury Limousines&quot;],&quot;cf5&quot;:[0,&quot;High Safety&quot;],&quot;cf6&quot;:[0,&quot;Fast Delivery&quot;],&quot;nt1&quot;:[0,&quot;AJYAL&quot;],&quot;n1&quot;:[0,&quot;services&quot;],&quot;n2&quot;:[0,&quot;Car Fleet&quot;],&quot;n3&quot;:[0,&quot;contact us&quot;],&quot;n4&quot;:[0,&quot;Book a Ride&quot;]}]}" ssr="" client="only" opts="{&quot;name&quot;:&quot;Carfleet&quot;,&quot;value&quot;:true}"></astro-island>
-<div class="min-h-screen w-full grid  grid-rows-2 md:w-[95%] astro-KLH3PA2O">
-  <div class="grid md:p-8 min-h-[60vh] mob:grid-rows-3  md:grid-cols-3 bg-cover bg-center astro-KLH3PA2O" style="background-image: url('images/moni.jpg')">
-    <article class=" bg-base-100 md:rounded-2xl p-4 justify-evenly flex flex-col mob:row-start-3 col-start-3 h-full w-full astro-KLH3PA2O">
-      <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">testimonials</h1>
-      <p class="text-amber-400 font-es astro-KLH3PA2O">what customers say about us</p>
-      <p class=" font-es xs:text-base  text-xl  astro-KLH3PA2O">I just wanted to say thank you for the amazing travel experience. I was so impressed with your service and would highly recommend you to anyone looking for a luxurious and convenient travel experience.</p>
-      <table class="table  astro-KLH3PA2O">
-        <tr class="astro-KLH3PA2O">
-          <td class="astro-KLH3PA2O">
-            <div class="flex items-center jc space-x-8 astro-KLH3PA2O">
-              <div class="avatar astro-KLH3PA2O">
-                <div class="mask mask-squircle w-16 h-16 astro-KLH3PA2O">
-                  <img src="images/mayguy.jpg" class="astro-KLH3PA2O">
-                </div>
-              </div>
-              <div class="astro-KLH3PA2O">
-                <div class="font-bold font-es text-2xl astro-KLH3PA2O">Hart Hagerty</div>
-                <div class=" opacity-50 astro-KLH3PA2O"></div>
+          <div class="flex gap-4 flex-col mob:px-4  justify-evenly">
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car1.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="card-title astro-LHWSPMK3">Luxury Car Rental</h2>
+                <p class="md:max-w-sm astro-LHWSPMK3">Explore the epitome of elegance and performance with our fleet of
+                  top-tier luxury cars.</p>
               </div>
             </div>
-          </td>
-        </tr>
-      
-    </table>
-  </article></div>
-  <div class="grid md:p-8 mob:grid-rows-2 md:grid-cols-9 bg-contain bg-no-repeat  bg-bottom md:bg-right astro-KLH3PA2O" style="background-image: url('images/l.jpg')">
-    <article class=" p-4 grid grid-rows-3 h-full w-full col-span-4 astro-KLH3PA2O">
-      <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">Our Major Clients</h1>
-      <div class=" w-full  row-span-2 flex flex-row items-center  justify-evenly  astro-KLH3PA2O">
-        <img src="images/pt12.jpg" class="h-48 astro-KLH3PA2O">
-        <img src="images/pt2.jpg" class="h-48 astro-KLH3PA2O">
-        <img src="images/pt3.jpg" class="h-48 astro-KLH3PA2O">
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car2.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="card-title astro-LHWSPMK3">Corporate Transportation Solutions</h2>
+                <p class="md:max-w-sm astro-LHWSPMK3">Elevate your business engagements with our corporate
+                  transportation services.</p>
+              </div>
+            </div>
+            <div
+              class="card servercard w-full inline-flex overflow-hidden md:rounded-none md:flex-row md:gap-4 md:max-h-48  astro-LHWSPMK3">
+              <figure class="astro-LHWSPMK3"><img src="images/car3.jpg" alt="Shoes"
+                  class="md:h-48 sm:h-64 w-full md:rounded-box astro-LHWSPMK3"></figure>
+              <div class="card-body  bg-base-200 md:rounded-box astro-LHWSPMK3">
+                <h2 class="card-title astro-LHWSPMK3">Personalized Chauffeur Service</h2>
+                <p class="md:max-w-sm astro-LHWSPMK3">Sit back, relax, and enjoy the journey while our experienced
+                  chauffeurs navigate the roads.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </article>
+    </div>
+  </main>
+
+  <!-- <div
+  class="sm:hidden border-t-[10vh] -mb-[10vh] border-t-base-300 border-r-[100vw] border-r-transparent"
+> -->
+  <div class="border-b-[10vh] border-b-black border-l-[100vw] border-l-transparent astro-HLE3Y4UW">
+  </div>
+  <div class="w-full h-[85vh] bg-black center1 astro-HLE3Y4UW">
+    <div class="h-full caroverly bg-contain md:bg-cover w-full  bg-no-repeat astro-HLE3Y4UW"
+      style="background-image: url(&#34;images/whyuscar.jpg&#34;)">
+    </div>
   </div>
 
-</div>
-<div class="careconter flex justify-center astro-BYV6WMXO">
-    <div id="car" class=" w-screen md:w-3/4 lg:w-3/5 bg-contain md:-mb-64 z-10 xs:-mb-28 -mb-48 aspect-video bg-center bg-no-repeat astro-BYV6WMXO"></div></div>
-<div class="bg-base-300 w-screen md:w-11/12 center3 md:border-t-[12rem] border-t-[8rem]   border-base-300   md:px-12 md:grid-cols-2 astro-BYV6WMXO">
+  <div class="pb-4 md:py-4 text-center text-white font-tp text-xl md:text-3xl lg:text-4xl bg-black text astro-HLE3Y4UW">
+    <h1 class="astro-HLE3Y4UW">Travel like Naver Before</h1>
+  </div>
+  <div class="border-t-[10vh] bg-base-300 border-t-black border-r-[100vw] border-r-transparent astro-HLE3Y4UW">
+  </div>
+
+  <div class="flex mob:flex-col justify-center bg-base-300 pt-4 md:gap-4 items-center">
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i3.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class="card-title">Excellence</h2>
+        <p class="text-lg">We strive for excellence in every aspect of our services, from the quality of our vehicles to
+          the professionalism of our team.</p>
+      </div>
+    </div>
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i1.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class="card-title">Reliability</h2>
+        <p class="text-lg">You can count on us for punctuality and reliability. Your time is valuable, and we ensure you
+          arrive on schedule.</p>
+      </div>
+    </div>
+    <div class="card mycard2 card-compact w-full md:w-96 rounded-xl">
+      <figure class="p-4"><img src="images/card2i2.jpg" alt="Shoes" class="rounded-xl"></figure>
+      <div class="card-body">
+        <h2 class="card-title">Integrity</h2>
+        <p class="text-lg">We operate with honesty and transparency, building trust with our clients through clear
+          communication and ethical practices.</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-evenly bg-base-300 mob:flex-col items-center min-h-[80vh] astro-HLE3Y4UW">
+    <video src="video/test.mp4" controls class="md:w-2/5 w-full astro-HLE3Y4UW"></video>
+    <div class="card w-full md:w-2/5 rounded-none bg-base-300 astro-HLE3Y4UW">
+      <div class="card-body astro-HLE3Y4UW">
+        <h2 class="card-title text-2xl font-tp font-bold lg:text-3xl astro-HLE3Y4UW">
+          Our Goals
+        </h2>
+        <p class=" text-lg astro-HLE3Y4UW">As we look ahead, our goal is to expand our fleet, enhance our service
+          offerings, and continue being a symbol of luxury and comfort in the transportation industry, We aim to be the
+          go-to choice for individuals and businesses seeking refined travel solutions. At Ajyal Alarabah, luxury,
+          convenience, and sophistication converge to create an unparalleled travel experience. Join us on this journey
+          and elevate the way you transport .</p>
+        <div id="f2-10" class="grid md:gap-4 grid-cols-3 mt-4 w-full astro-HLE3Y4UW">
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c1.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">Luxury</h2>
+          </div>
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c2.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">truest</h2>
+          </div>
+          <div class="md:outline rounded-lg text-center md:p-4 center1 flex-col astro-HLE3Y4UW">
+            <img src="svgim/c3.svg" class="lg:m-4 xs:m-4 astro-HLE3Y4UW" alt="" srcset="">
+            <h2 class="font-tp font-bold text-xl astro-HLE3Y4UW">Comfort</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t-[20vh] bg-base-100 border-t-base-300 border-l-[100vw] border-l-transparent astro-HLE3Y4UW"></div>
+  <style>
+    astro-island,
+    astro-slot,
+    astro-static-slot {
+      display: contents
+    }
+  </style>
+  <script>(() => { var e = async t => { await (await t())() }; (self.Astro || (self.Astro = {})).only = e; window.dispatchEvent(new Event("astro:only")); })();; (() => { var d; { let h = { 0: t => t, 1: t => JSON.parse(t, a), 2: t => new RegExp(t), 3: t => new Date(t), 4: t => new Map(JSON.parse(t, a)), 5: t => new Set(JSON.parse(t, a)), 6: t => BigInt(t), 7: t => new URL(t), 8: t => new Uint8Array(JSON.parse(t)), 9: t => new Uint16Array(JSON.parse(t)), 10: t => new Uint32Array(JSON.parse(t)) }, a = (t, e) => { if (t === "" || !Array.isArray(e)) return e; let [r, n] = e; return r in h ? h[r](n) : void 0 }; customElements.get("astro-island") || customElements.define("astro-island", (d = class extends HTMLElement { constructor() { super(...arguments); this.hydrate = async () => { var o; if (!this.hydrator || !this.isConnected) return; let e = (o = this.parentElement) == null ? void 0 : o.closest("astro-island[ssr]"); if (e) { e.addEventListener("astro:hydrate", this.hydrate, { once: !0 }); return } let r = this.querySelectorAll("astro-slot"), n = {}, c = this.querySelectorAll("template[data-astro-template]"); for (let s of c) { let i = s.closest(this.tagName); i != null && i.isSameNode(this) && (n[s.getAttribute("data-astro-template") || "default"] = s.innerHTML, s.remove()) } for (let s of r) { let i = s.closest(this.tagName); i != null && i.isSameNode(this) && (n[s.getAttribute("name") || "default"] = s.innerHTML) } let l = this.hasAttribute("props") ? JSON.parse(this.getAttribute("props"), a) : {}; await this.hydrator(this)(this.Component, l, n, { client: this.getAttribute("client") }), this.removeAttribute("ssr"), this.dispatchEvent(new CustomEvent("astro:hydrate")) } } connectedCallback() { !this.hasAttribute("await-children") || this.firstChild ? this.childrenConnectedCallback() : new MutationObserver((e, r) => { r.disconnect(), setTimeout(() => this.childrenConnectedCallback(), 0) }).observe(this, { childList: !0 }) } async childrenConnectedCallback() { let e = this.getAttribute("before-hydration-url"); e && await import(e), this.start() } start() { let e = JSON.parse(this.getAttribute("opts")), r = this.getAttribute("client"); if (Astro[r] === void 0) { window.addEventListener(`astro:${r}`, () => this.start(), { once: !0 }); return } Astro[r](async () => { let n = this.getAttribute("renderer-url"), [c, { default: l }] = await Promise.all([import(this.getAttribute("component-url")), n ? import(n) : () => () => { }]), o = this.getAttribute("component-export") || "default"; if (!o.includes(".")) this.Component = c[o]; else { this.Component = c; for (let s of o.split(".")) this.Component = this.Component[s] } return this.hydrator = l, this.hydrate }, e, this) } attributeChangedCallback() { this.hydrate() } }, d.observedAttributes = ["props"], d)) } })();</script>
+  <astro-island uid="1jxXqi" component-url="/_astro/section4.6e6a0fd4.js" component-export="default"
+    renderer-url="/_astro/client.c4e17359.js"
+    props="{&quot;pd&quot;:[0,{&quot;type&quot;:[0,&quot;EN&quot;],&quot;a1&quot;:[0,&quot;the best transportation service in the KSA&quot;],&quot;a2&quot;:[0,&quot;Book Now&quot;],&quot;a3&quot;:[0,&quot;Travel Like a King&quot;],&quot;abg1&quot;:[0,&quot;images/image3.jpg&quot;],&quot;b2&quot;:[0,&quot;one place for all Transportation, Travel, and Rental services&quot;],&quot;b3&quot;:[0,&quot;@Ajyal Alarabah&quot;],&quot;b4&quot;:[0,&quot;At Ajyal Alarabah, we are dedicated to delivering unparalleled luxury and convenience to our clients through our premium car rental and chauffeur services. Our mission is to provide a seamless and luxurious travel experience that exceeds expectations and adds value to every journey.&quot;],&quot;b5&quot;:[0,&quot;Ahmaed@ajyalalarabah.com&quot;],&quot;cb11&quot;:[0,&quot;Luxury Car Rental&quot;],&quot;cb12&quot;:[0,&quot;Explore the epitome of elegance and performance with our fleet of top-tier luxury cars.&quot;],&quot;cb13&quot;:[0,&quot;car1.jpg&quot;],&quot;cb21&quot;:[0,&quot;Corporate Transportation Solutions&quot;],&quot;cb22&quot;:[0,&quot;Elevate your business engagements with our corporate transportation services.&quot;],&quot;cb23&quot;:[0,&quot;car2.jpg&quot;],&quot;cb31&quot;:[0,&quot;Personalized Chauffeur Service&quot;],&quot;cb32&quot;:[0,&quot;Sit back, relax, and enjoy the journey while our experienced chauffeurs navigate the roads.&quot;],&quot;cb33&quot;:[0,&quot;car3.jpg&quot;],&quot;cbg1&quot;:[0,&quot;images/whyuscar.jpg&quot;],&quot;c1&quot;:[0,&quot;Travel like Naver Before&quot;],&quot;cc11&quot;:[0,&quot;Excellence&quot;],&quot;cc12&quot;:[0,&quot;We strive for excellence in every aspect of our services, from the quality of our vehicles to the professionalism of our team.&quot;],&quot;cc13&quot;:[0,&quot;images/card2i3.jpg&quot;],&quot;cc21&quot;:[0,&quot;Reliability&quot;],&quot;cc22&quot;:[0,&quot;You can count on us for punctuality and reliability. Your time is valuable, and we ensure you arrive on schedule.&quot;],&quot;cc23&quot;:[0,&quot;images/card2i1.jpg&quot;],&quot;cc31&quot;:[0,&quot;Integrity&quot;],&quot;cc32&quot;:[0,&quot;We operate with honesty and transparency, building trust with our clients through clear communication and ethical practices.&quot;],&quot;cc33&quot;:[0,&quot;images/card2i2.jpg&quot;],&quot;c21&quot;:[0,&quot;Our Goals&quot;],&quot;c22&quot;:[0,&quot;As we look ahead, our goal is to expand our fleet, enhance our service offerings, and continue being a symbol of luxury and comfort in the transportation industry, We aim to be the go-to choice for individuals and businesses seeking refined travel solutions. At Ajyal Alarabah, luxury, convenience, and sophistication converge to create an unparalleled travel experience. Join us on this journey and elevate the way you transport .&quot;],&quot;cc41&quot;:[0,&quot;Luxury&quot;],&quot;cc43&quot;:[0,&quot;svgim/c1.svg&quot;],&quot;cc51&quot;:[0,&quot;truest&quot;],&quot;cc53&quot;:[0,&quot;svgim/c2.svg&quot;],&quot;cc61&quot;:[0,&quot;Comfort&quot;],&quot;cc63&quot;:[0,&quot;svgim/c3.svg&quot;],&quot;d1&quot;:[0,&quot;Ajyal Alarabah Car Fleet&quot;],&quot;d2&quot;:[0,&quot;Our fleet of luxury cars includes a variety of makes and models to suit your needs. Whether you&#39;re looking for a spacious sedan for a family vacation or a sleek sports car for a night out on the town, we have the perfect vehicle for you.&quot;],&quot;ebg1&quot;:[0,&quot;images/moni.jpg&quot;],&quot;e2&quot;:[0,&quot;testimonials&quot;],&quot;e3&quot;:[0,&quot;what customers say about us&quot;],&quot;e4&quot;:[0,&quot;I just wanted to say thank you for the amazing travel experience. I was so impressed with your service and would highly recommend you to anyone looking for a luxurious and convenient travel experience.&quot;],&quot;ebg2&quot;:[0,&quot;images/l.jpg&quot;],&quot;e5&quot;:[0,&quot;Our Major Clients&quot;],&quot;eimg1&quot;:[0,&quot;images/pt12.jpg&quot;],&quot;eimg2&quot;:[0,&quot;images/pt2.jpg&quot;],&quot;eimg3&quot;:[0,&quot;images/pt3.jpg&quot;],&quot;e6&quot;:[0,&quot;non-emergency transportation&quot;],&quot;e8&quot;:[0,&quot;Hart Hagerty&quot;],&quot;ebg3&quot;:[0,&quot;images/mayguy.jpg&quot;],&quot;f1&quot;:[0,&quot;we make sure that every trip is safe and comfortable&quot;],&quot;f2&quot;:[0,&quot;We take your safety and comfort very seriously. All of our vehicles are regularly inspected and maintained, and our chauffeurs are highly trained and experienced. We also offer a variety of safety features, such as seat belts and airbags, to ensure your peace of mind.&quot;],&quot;cf1&quot;:[0,&quot;Available 24/7&quot;],&quot;cf2&quot;:[0,&quot;Professional Drivers&quot;],&quot;cf3&quot;:[0,&quot;Fixed price&quot;],&quot;cf4&quot;:[0,&quot;Luxury Limousines&quot;],&quot;cf5&quot;:[0,&quot;High Safety&quot;],&quot;cf6&quot;:[0,&quot;Fast Delivery&quot;],&quot;nt1&quot;:[0,&quot;AJYAL&quot;],&quot;n1&quot;:[0,&quot;services&quot;],&quot;n2&quot;:[0,&quot;Car Fleet&quot;],&quot;n3&quot;:[0,&quot;contact us&quot;],&quot;n4&quot;:[0,&quot;Book a Ride&quot;]}]}"
+    ssr="" client="only" opts="{&quot;name&quot;:&quot;Carfleet&quot;,&quot;value&quot;:true}"></astro-island>
+  <div class="min-h-screen w-full grid  grid-rows-2 md:w-[95%] astro-KLH3PA2O">
+    <div class="grid md:p-8 min-h-[60vh] mob:grid-rows-3  md:grid-cols-3 bg-cover bg-center astro-KLH3PA2O"
+      style="background-image: url('images/moni.jpg')">
+      <article
+        class=" bg-base-100 md:rounded-2xl p-4 justify-evenly flex flex-col mob:row-start-3 col-start-3 h-full w-full astro-KLH3PA2O">
+        <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">testimonials</h1>
+        <p class="text-amber-400 font-es astro-KLH3PA2O">what customers say about us</p>
+        <p class=" font-es xs:text-base  text-xl  astro-KLH3PA2O">I just wanted to say thank you for the amazing travel
+          experience. I was so impressed with your service and would highly recommend you to anyone looking for a
+          luxurious and convenient travel experience.</p>
+        <table class="table  astro-KLH3PA2O">
+          <tr class="astro-KLH3PA2O">
+            <td class="astro-KLH3PA2O">
+              <div class="flex items-center jc space-x-8 astro-KLH3PA2O">
+                <div class="avatar astro-KLH3PA2O">
+                  <div class="mask mask-squircle w-16 h-16 astro-KLH3PA2O">
+                    <img src="images/mayguy.jpg" class="astro-KLH3PA2O">
+                  </div>
+                </div>
+                <div class="astro-KLH3PA2O">
+                  <div class="font-bold font-es text-2xl astro-KLH3PA2O">Hart Hagerty</div>
+                  <div class=" opacity-50 astro-KLH3PA2O"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+        </table>
+      </article>
+    </div>
+    <div
+      class="grid md:p-8 mob:grid-rows-2 md:grid-cols-9 bg-contain bg-no-repeat  bg-bottom md:bg-right astro-KLH3PA2O"
+      style="background-image: url('images/l.jpg')">
+      <article class=" p-4 grid grid-rows-3 h-full w-full col-span-4 astro-KLH3PA2O">
+        <h1 class=" font-bold font-es xs:text-4xl text-5xl lg:text-6xl astro-KLH3PA2O">Our Major Clients</h1>
+        <div class=" w-full  row-span-2 center3 grid-cols-3 xs:grid-cols-2  astro-KLH3PA2O">
+        <img src="images/pt12.jpg" class="w-full astro-KLH3PA2O">
+        <img src="images/pt2.jpg" class="max-h-48 astro-KLH3PA2O">
+        <img src="images/pt3.jpg" class="max-h-48 astro-KLH3PA2O">
+      </div>
+      </article>
+    </div>
+
+  </div>
+  <div class="careconter flex justify-center astro-BYV6WMXO">
+    <div id="car"
+      class=" w-screen md:w-3/4 lg:w-3/5 bg-contain md:-mb-64 z-10 xs:-mb-28 -mb-48 aspect-video bg-center bg-no-repeat astro-BYV6WMXO">
+    </div>
+  </div>
+  <div
+    class="bg-base-300 w-screen md:w-11/12 center3 md:border-t-[12rem] border-t-[8rem]   border-base-300   md:px-12 md:grid-cols-2 astro-BYV6WMXO">
     <div class="bg-base-300 w-full md:h-full  astro-BYV6WMXO">
-        <article class="card-body mob:py-4 astro-BYV6WMXO">
-            <!-- todo edit this section -->
-            <h1 class="text-4xl lg:text-5xl font-bold  astro-BYV6WMXO">we make sure that every trip is safe and comfortable</h1>
-            <p class=" sm:text-lg  astro-BYV6WMXO">We take your safety and comfort very seriously. All of our vehicles are regularly inspected and maintained, and our chauffeurs are highly trained and experienced. We also offer a variety of safety features, such as seat belts and airbags, to ensure your peace of mind.</p>
-        </article>
+      <article class="card-body mob:py-4 astro-BYV6WMXO">
+        <!-- todo edit this section -->
+        <h1 class="text-4xl lg:text-5xl font-bold  astro-BYV6WMXO">we make sure that every trip is safe and comfortable
+        </h1>
+        <p class=" sm:text-lg  astro-BYV6WMXO">We take your safety and comfort very seriously. All of our vehicles are
+          regularly inspected and maintained, and our chauffeurs are highly trained and experienced. We also offer a
+          variety of safety features, such as seat belts and airbags, to ensure your peace of mind.</p>
+      </article>
     </div>
     <div id="maingrid" class="bg-base-300  grid-cols-2 md:grid-cols-3 gap-1 w-full   center3 astro-BYV6WMXO">
-        <div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a1.svg)"></div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a1.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">Available 24/7</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a2.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">Professional Drivers</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a3.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">Fixed price</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a4.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">Luxury Limousines</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a5.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">High Safety</h2>
+      </div>
+      <div class=" flex flex-col h-full w-full bg-base-300 ">
+        <div class="p-4 pb-0">
+          <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center"
+            style="background-image:url(svgim/a6.svg)"></div>
+        </div>
+        <h2 class="text-center text-xl font-tp p-4">Fast Delivery</h2>
+      </div>
     </div>
-      <h2 class="text-center text-xl font-tp p-4">Available 24/7</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a2.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">Professional Drivers</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a3.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">Fixed price</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a4.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">Luxury Limousines</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a5.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">High Safety</h2>
-  </div><div class=" flex flex-col h-full w-full bg-base-300 ">
-    <div class="p-4 pb-0">
-    <div class=" w-full aspect-square bg-contain h-24 bg-no-repeat bg-center" style="background-image:url(svgim/a6.svg)"></div>
-    </div>
-      <h2 class="text-center text-xl font-tp p-4">Fast Delivery</h2>
-  </div> 
-    </div>
-</div>
-<footer class="footer p-10 bg-base-200 text-base-content">
-  
+  </div>
+  <footer class="footer p-10 bg-base-200 text-base-content">
+
     <!-- <div>
       <span class="footer-title">Legal</span> 
       <a class="link link-hover">Terms of use</a> 
       <a class="link link-hover">Privacy policy</a> 
       <a class="link link-hover">Cookie policy</a>
     </div> -->
-  </footer> 
+  </footer>
   <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
     <div class="items-center grid-flow-col">
-      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+        clip-rule="evenodd" class="fill-current">
+        <path
+          d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
+        </path>
+      </svg>
       <p>Ajyal Alarabah Ltd. <br>Providing transportation solutions for everyone</p>
-    </div> 
+    </div>
     <div class="md:place-self-center md:justify-self-end">
       <div class="grid grid-flow-col gap-4">
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
-        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+            </path>
+          </svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+            </path>
+          </svg></a>
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+            <path
+              d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+            </path>
+          </svg></a>
       </div>
     </div>
   </footer>
 
-	</body></html>
+</body>
+
+</html>
