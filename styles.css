@@ -2310,6 +2310,6 @@ html {
   }
 }
 #car:where(.astro-BYV6WMXO) {
-  background-image: url(./images/rols3.png);
+  background-image: url("https://raw.githubusercontent.com/6Lamor9/demo.io/main/images/rols3.png");
   aspect-ratio: 16/9;
 }
